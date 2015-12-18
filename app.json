@@ -1,0 +1,7 @@
+{
+  "name": "czy-isc-na-wyklad",
+  "description": "Algorytm decyzyjny pomagający zdecydować studentowi czy danego dnia należy pójść na wykład.",
+  "repository": "https://github.com/KamilLelonek/czy-i--na-wyk-ad",
+  "logo": "http://gfx.dlastudenta.pl/photos/dlafaceta/luzniej3/leniwy_student1.jpg",
+  "keywords": ["student", "wyklad", "uczelnia", "politechnika", "uniwersytet"]
+}

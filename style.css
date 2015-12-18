@@ -1,0 +1,19 @@
+body {
+  height:          100vh;
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+  flex-direction:  column;
+  font-family:    'Poiret One';
+}
+
+header {
+  color:          #111;
+  font-size:      4rem;
+  font-weight:    800;
+  text-transform: uppercase;
+}
+
+#text {
+  font-size: 2rem;
+}
