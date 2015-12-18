@@ -1,19 +1,28 @@
-body {
-  height:          90vh;
+.flex-container {
   display:         flex;
-  justify-content: center;
   align-items:     center;
   flex-direction:  column;
+  flex-wrap:       nowrap;
+  justify-content: center;
   font-family:    'Poiret One';
 }
 
-header {
+@media (min-width: 50em) {
+  .flex-container {
+    height: 80vh;
+  }
+}
+
+.flex-item:nth-child(1) {
+  margin-top:     200px;
   color:          #111;
   font-size:      4rem;
   font-weight:    800;
   text-transform: uppercase;
+  flex:           1;
 }
 
-#text {
-  font-size: 2rem;
+.flex-item:nth-child(2) {
+  flex:       2;
+  font-size:  2rem;
 }
