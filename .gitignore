@@ -1,2 +1,7 @@
+# NodeJS features
 node_modules/
 npm-debug.log
+
+# Babel build results
+scripts.js
+scripts.js.map

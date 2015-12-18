@@ -2,9 +2,33 @@
 
 Algorytm decyzyjny pomagający zdecydować studentowi czy danego dnia należy pójść na wykład.
 
+## Wymagania wstępne
+
+Sklonuj repozytorium za pomocą komendy:
+
+    git clone https://github.com/KamilLelonek/czy-i--na-wyk-ad.git
+
+Wszystkie komendy należy wykonywać z poziomu linii poleceń w którym komenda `pwd` wskazuje na katalog projektu.
+
+## Setup
+
+Upewnij się, że posiadasz zainstalowane środowisko [`NodeJS`](https://nodejs.org/en/download/) za pomocą komendy:
+
+    npm --version
+
+W celu instalacji wszystkich zależności należy użyć:
+
+    npm i
+
 ## Development
 
 Wykonaj polecenie:
+
+    npm run watch
+
+aby uruchomić kompilacje `EcmaScript 6` za pomocą `Babel`a.
+
+Następnie, aby uruchomić serwer developerski wykonaj w osobnym oknie terminala:
 
     npm run dev-server
 
